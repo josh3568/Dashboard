@@ -1,0 +1,89 @@
+html {
+	background-color: #434344;
+	padding: 20px 20px 20px 20px;
+	/* NOTE: floated children result in image overflowing (overlaying) outside its parent. This is the workaround see "clearfix"*/
+	content: "";
+    clear: both;
+    display: table;
+}
+
+
+
+.container{
+	background-color: rgb(143, 144, 147);
+	border: 5px solid black;
+	padding: 20px 20px 20px 20px;
+	/* NOTE: floated children result in image overflowing (overlaying) outside its parent. This is the workaround see "clearfix"*/
+	content: "";
+    clear: both;
+    display: table;
+}
+	
+.Arial {
+	font-family: Arial;
+}
+
+.Helvetica{
+	font-family: Helvetica;
+}
+	
+.TimesNewRoman{
+	font-family: TimesNewRoman;
+}
+	
+.Times{
+	font-family: Times;
+}
+
+.CourierNew{
+	font-family: CourierNew;
+}
+
+.Courier{
+	font-family: Courier;
+}
+
+.Verdana{
+	font-family: Verdana;
+}
+
+.Georgia{
+	font-family: Georgia;
+}
+
+.Palatino{
+	font-family: Palatino;
+}
+
+.Garamond{
+	font-family: Garamond;
+}
+
+.Bookman{
+	font-family: Bookman;
+}
+
+.ComicSansMS{
+	font-family: ComicSansMS;
+}
+	
+.TrebuchetMS{
+	font-family: TrebuchetMS;
+}
+	
+.ArialBlack{
+	font-family: ArialBlack;
+}
+
+.Impact{
+	font-family: Impact;
+}
+
+.design{
+	font-family: Arial;
+	font-size: 12px;
+	font-style: italic;
+	font-variant: normal;
+	font-weight: 100;
+	line-height: 24px;
+}

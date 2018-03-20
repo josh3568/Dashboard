@@ -1,0 +1,52 @@
+html{
+	background-color: #434344;
+}
+
+body{}
+
+h1 {
+  margin: 0;
+  padding: 20px 0;    
+  color: #00539F;
+  
+  /* shadow arguments: x,y,shadow color */
+  text-shadow: 1px 1px 1px black;
+}
+
+li {
+	list-style-type: '- ';
+}
+
+.wrapper {
+	background-color: rgb(143, 144, 147);
+	border: 5px solid black;
+	padding: 20px 20px 20px 20px;
+	/* NOTE: floated children result in image overflowing (overlaying) outside its parent. This is the workaround see "clearfix"*/
+	content: "";
+    clear: both;
+    display: table;
+}
+
+.container {
+	float: left;
+	/* width: 800px; */
+	padding: 20px 20px 20px 20px;
+}
+
+.box {
+	/* float: left; */
+	/* margin-left: 20px; */
+	/* width: 15%; */
+	margin: 20px auto;
+	padding: 20px 20px 20px 20px;
+	background-color: #edb4b4;
+}
+
+.design{
+	font-family: Arial;
+	font-size: 12px;
+	font-style: italic;
+	font-variant: normal;
+	font-weight: 100;
+	line-height: 24px;
+}

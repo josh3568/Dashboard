@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+	<title>
+		Josh Thompson's Resume
+	</title>
+	<head>
+		<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+		<link rel="stylesheet" type="text/css" href="../Main.css"/>
+		<script type="text/javascript" src="JSHome.js"></script>
+	</head>
+	<body>
+		<div class="wrapper">
+			<div class="box">
+				<h1>Path</h1>
+				<p id="Directory"></p>
+				<a id="nav" href="..\Main.html">Main</a> > Java Script Examples 
+			</div>
+				<div class="container">
+					<div class="box" id="JSbutton">
+						<script>
+							window.onload = setup;
+						</script>
+						<h1>Java Script Examples</h1>
+						<canvas id="canvas"></canvas>
+						<button id="btnSubmit" onclick="ButtonPainter();">Change Color</button>
+					</div>
+				</div>
+		</div>
+	</body>
+	<footer>
+		<div class="design">
+			Web Design by Josh Thompson. Last Updated:			
+			<p id="demo"></p>
+			<script>
+				var x = new Date(document.lastModified); 
+				document.getElementById("demo").innerHTML = x;
+			</script>
+		</div>
+	</footer>
